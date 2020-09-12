@@ -1,7 +1,7 @@
 <?php
-$dsn = 'mysql:dbname=tb220378db;host=localhost';
-$user = 'tb-220378';
-$password = 'Q8mAd9AjzK';
+$dsn = 'mysql:dbname=tb***db;host=localhost';
+$user = 'tb-***';
+$password = '***';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
 $sql = "CREATE TABLE IF NOT EXISTS keian"
